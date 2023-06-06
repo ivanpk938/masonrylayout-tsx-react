@@ -4,7 +4,8 @@
 MasonryLayout component for React. Allows to create grid layout based on columns with auto-placement and optimized usage of Y-space by reducing unnecessary gaps
 
 ## flex-wrap vs Masonry Layout
-![masonry-layout-browser-fallback (1)](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/2be76b88-daa7-40cd-baa5-522b67384ae9)
+
+https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/be7e5adb-8264-4698-ae30-c5313a750cab
 
 ## Demo & Usage
 ```npm i masonrylayout-tsx-react```

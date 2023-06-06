@@ -1,0 +1,29 @@
+{
+  "name": "masonrylayout-tsx-react",
+  "version": "1.0.0",
+  "description": "MasonryLayout component for React. To create grid layout based on columns with auto-placement and optimized usage of Y-space",
+  "main": "index.tsx",
+  "dependencies": {
+  },
+  "keywords": [
+    "masonry",
+    "layout",
+    "component",
+    "react",
+    "grid",
+    "flex",
+    "flex-wrap",
+    "columns",
+    "tsx"
+  ],
+  "homepage": "https://github.com/prg938/masonrylayout-tsx-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prg938/masonrylayout-tsx-react"
+  },
+  "bugs": {
+    "url": "https://github.com/prg938/masonrylayout-tsx-react/issues"
+  },
+  "author": "PRG938 https://github.com/prg938",
+  "license": "MIT license"
+}

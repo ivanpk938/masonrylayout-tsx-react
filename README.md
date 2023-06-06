@@ -8,6 +8,11 @@ MasonryLayout component for React. Allows to create grid layout based on columns
 
 ## Demo & Usage
 ```npm i masonrylayout-tsx-react```
+
+
+https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/66246954-2726-4f17-9fc4-b9545851d1ca
+
+
 #### Demo of the code below: http://prg938.vercel.app/masonry
 ```js
 import {FunctionComponent, ReactEventHandler, useRef, useState} from "react"

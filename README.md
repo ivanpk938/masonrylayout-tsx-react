@@ -111,7 +111,7 @@ const MasonryPage: FunctionComponent<{}> = () => {
 ```
 
 ## MasonryLayout props:
-```@forwardedRef``` provides ```layout``` function<br/> Used when asset is loaded (image/video) to layout elements again (to prevent overlay of the elements when the asset is loaded and height of its block is changed)<br/>
+```@forwardedRef``` provides ```layout``` function. Used when asset is loaded (image/video) to layout elements again (to prevent overlay of the elements when the asset is loaded and height of its block is changed)<br/>
 ```@animate``` To animate elements and its container need to specify animation-duration & easing-function, example: ```".4s ease"```<br/>
 ```@justifyContainer("flex-start"|"center"|"flex-end")``` - how to place container (in which all elements are nested)<br/>
 ```@gap``` To create a gap for the elements<br/>

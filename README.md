@@ -6,9 +6,9 @@ MasonryLayout component for React. Allows to create grid layout based on columns
 ## flex-wrap vs Masonry Layout
 ![masonry-layout-browser-fallback (1)](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/2be76b88-daa7-40cd-baa5-522b67384ae9)
 
-## Usage
+## Demo & Usage
 ```npm i masonrylayout-tsx-react```
-
+#### Demo of the code below: http://prg938.vercel.app/masonry
 ```js
 import {FunctionComponent, ReactEventHandler, useRef, useState} from "react"
 import MasonryLayout from "masonrylayout-tsx-react"
@@ -110,4 +110,9 @@ const MasonryPage: FunctionComponent<{}> = () => {
 }
 ```
 
-## Demo of the above code: http://prg938.vercel.app/masonry
+## MasonryLayout props:
+```@forwardedRef``` provides ```layout``` function<br/> Used when asset is loaded (image/video) to layout elements again (to prevent overlay of the elements when the asset is loaded and height of its block is changed)<br/>
+```@animate``` To animate elements and its container need to specify animation-duration & easing-function, example: ```".4s ease"```<br/>
+```@justifyContainer("flex-start"|"center"|"flex-end")``` - how to place container (in which all elements are nested)<br/>
+```@gap``` To create a gap for the elements<br/>
+```@layoutThrottle``` Delay after which the ```layout()``` function is called to layout elements again (when browser's window is resized)

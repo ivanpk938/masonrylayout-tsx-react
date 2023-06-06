@@ -1,4 +1,4 @@
-# masonrylayout-tsx-react
+## masonrylayout-tsx-react
 ![masonry-in-css-01](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/47b9d96b-cb31-46c8-a9aa-2b9251394d28)
 
 MasonryLayout component for React. Allows to create grid layout based on columns with auto-placement and optimized usage of Y-space by reducing unnecessary gaps
@@ -8,13 +8,11 @@ MasonryLayout component for React. Allows to create grid layout based on columns
 ![243564763-2be76b88-daa7-40cd-baa5-522b67384ae9](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/fe4dc183-45cf-4fd0-a60f-58f3be590ec0)
 
 ## Demo & Usage
-```npm i masonrylayout-tsx-react```
-
-#### Demo
-#### http://prg938.vercel.app/masonry
+#### Demo http://prg938.vercel.app/masonry
 https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/be7e5adb-8264-4698-ae30-c5313a750cab
 
 #### Usage (full code for demo above):
+```npm i masonrylayout-tsx-react```
 ```js
 import {FunctionComponent, ReactEventHandler, useRef, useState} from "react"
 import MasonryLayout from "masonrylayout-tsx-react"

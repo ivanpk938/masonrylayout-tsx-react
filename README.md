@@ -13,8 +13,11 @@ It allows to create grid layout based on columns with auto-placement and optimiz
 ```npm i masonrylayout-tsx-react```
 
 ## Requirements
-- React >= 16.8.0
-- TypeScript
+
+| install | version |
+| --- | --- |
+| React | >=16.8.0 |
+| TypeScript | - |
 
 ## flex-wrap vs Masonry Layout
 

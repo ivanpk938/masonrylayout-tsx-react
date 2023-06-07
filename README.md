@@ -1,9 +1,9 @@
 ## About
-**masonrylayout-tsx-react**
+**masonrylayout-tsx-react** lib provides MasonryLayout function component from *index.tsx* file
 
 ![masonry-in-css-01](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/47b9d96b-cb31-46c8-a9aa-2b9251394d28)
 
-MasonryLayout component for React. Allows to create grid layout based on columns with auto-placement and optimized usage of Y-space by reducing unnecessary gaps
+It allows to create grid layout based on columns with auto-placement and optimized usage of Y-space by reducing unnecessary gaps
 
 ## flex-wrap vs Masonry Layout
 
@@ -130,3 +130,7 @@ const MasonryPage: FunctionComponent<{}> = () => {
 | `justifyContainer` | 'flex-start' \| 'center' \| 'flex-end' | 'flex-start' | Specifies how to place container (in which all elements are nested) |
 | `gap` | number | 10 | To create a gap for the elements |
 | `layoutThrottle` | number | 250 | Delay after which the **layout()** function is called to layout elements again (when browser's window is resized) | 
+
+## Requirements
+- React >= 16.8.0
+- TypeScript

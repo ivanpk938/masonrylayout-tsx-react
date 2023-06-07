@@ -1,6 +1,6 @@
 {
   "name": "masonrylayout-tsx-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MasonryLayout component for React. To create grid layout based on columns with auto-placement and optimized usage of Y-space",
   "main": "index.tsx",
   "dependencies": {

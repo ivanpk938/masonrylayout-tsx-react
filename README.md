@@ -31,9 +31,16 @@ import {FunctionComponent, ReactEventHandler, useRef, useState} from "react"
 import MasonryLayout from "masonrylayout-tsx-react"
 import type {MasonryLayoutRefType} from "masonrylayout-tsx-react"
 
-// In Next.js you should use dynamic import:
-// import dynamic from "next/dynamic"
-// const MasonryLayout = dynamic(import('masonrylayout-tsx-react'), {ssr: false})
+/* For Next.js
+Use dynamic import:
+  import dynamic from "next/dynamic"
+  const MasonryLayout = dynamic(import('masonrylayout-tsx-react'), {ssr: false})
+
+Add to next.config.js
+  module.exports = {transpilePackages: ['masonrylayout-tsx-react']}
+  https://nextjs.org/docs/architecture/nextjs-compiler#module-transpilation
+*/
+   
 
 const [box, center, button, fw] = [
   {

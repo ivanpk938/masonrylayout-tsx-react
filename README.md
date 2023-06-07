@@ -1,7 +1,9 @@
 ## About
-![npm](https://img.shields.io/npm/v/masonrylayout-tsx-react?color=black&label=npm&style=plastic)
-
 **masonrylayout-tsx-react** lib provides MasonryLayout function component from *index.tsx* file
+
+![GitHub package.json version](https://img.shields.io/github/package-json/v/prg938/masonrylayout-tsx-react)
+![GitHub issues](https://img.shields.io/github/issues/prg938/masonrylayout-tsx-react)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/prg938/masonrylayout-tsx-react)
 
 ![masonry-in-css-01](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/47b9d96b-cb31-46c8-a9aa-2b9251394d28)
 

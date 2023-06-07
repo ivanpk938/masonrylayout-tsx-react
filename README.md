@@ -1,4 +1,6 @@
-## masonrylayout-tsx-react
+## About
+**masonrylayout-tsx-react**
+
 ![masonry-in-css-01](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/47b9d96b-cb31-46c8-a9aa-2b9251394d28)
 
 MasonryLayout component for React. Allows to create grid layout based on columns with auto-placement and optimized usage of Y-space by reducing unnecessary gaps
@@ -113,10 +115,18 @@ const MasonryPage: FunctionComponent<{}> = () => {
   </>
 }
 ```
+## component
+```js
+<MasonryLayout forwardedRef={MasonryLayoutRef} animate=".4s ease" justifyContainer="center" gap={10} layoutThrottle={200}>
+  {elements}
+</MasonryLayout>
+```
+## properties:
 
-## MasonryLayout props:
-```@forwardedRef``` provides ```layout``` function. Used when asset is loaded (image/video) to layout elements again (to prevent overlay of the elements when the asset is loaded and height of its block is changed)<br/>
-```@animate``` To animate elements and its container need to specify animation-duration & easing-function, example: ```".4s ease"```<br/>
-```@justifyContainer("flex-start"|"center"|"flex-end")``` - how to place container (in which all elements are nested)<br/>
-```@gap``` To create a gap for the elements<br/>
-```@layoutThrottle``` Delay after which the ```layout()``` function is called to layout elements again (when browser's window is resized)
+| property | type | default | description |
+| --- | --- | --- | --- |
+| `forwardedRef` | RefObject\<MasonryLayoutRefType\> | none | Provides **layout()** function. Used to layout elements again when the asset is loaded (image/video). This is needed to prevent overlay of the elements when the asset is loaded and the height of its block is changed) |
+| `animate` | string | none | To animate elements using CSS-transition. Example: **.4s ease** |
+| `justifyContainer` | 'flex-start' \| 'center' \| 'flex-end' | 'flex-start' | Specifies how to place container (in which all elements are nested) |
+| `gap` | number | 10 | To create a gap for the elements |
+| `layoutThrottle` | number | 250 | Delay after which the **layout()** function is called to layout elements again (when browser's window is resized) | 

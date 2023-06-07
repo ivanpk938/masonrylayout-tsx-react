@@ -1,5 +1,5 @@
 ## About
-**masonrylayout-tsx-react** lib provides MasonryLayout function component from *index.tsx* file
+**masonrylayout-tsx-react** exports MasonryLayout component from *index.tsx*
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/prg938/masonrylayout-tsx-react)
 ![GitHub issues](https://img.shields.io/github/issues/prg938/masonrylayout-tsx-react)
@@ -24,21 +24,21 @@ It allows to create grid layout based on columns with auto-placement and optimiz
 ![243564763-2be76b88-daa7-40cd-baa5-522b67384ae9](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/fe4dc183-45cf-4fd0-a60f-58f3be590ec0)
 
 ## Demo & Usage
-#### Demo http://prg938.vercel.app/masonry
-#### Usage (full code for demo above):
+#### Demo: http://prg938.vercel.app/masonry
+#### Usage: (full code for demo above)
 ```js
 import {FunctionComponent, ReactEventHandler, useRef, useState} from "react"
 import MasonryLayout from "masonrylayout-tsx-react"
 import type {MasonryLayoutRefType} from "masonrylayout-tsx-react"
 
 /* For Next.js
-Use dynamic import:
-  import dynamic from "next/dynamic"
-  const MasonryLayout = dynamic(import('masonrylayout-tsx-react'), {ssr: false})
+1. Use dynamic import:
+   import dynamic from "next/dynamic"
+   const MasonryLayout = dynamic(import('masonrylayout-tsx-react'), {ssr: false})
 
-Add to next.config.js
-  module.exports = {transpilePackages: ['masonrylayout-tsx-react']}
-  https://nextjs.org/docs/architecture/nextjs-compiler#module-transpilation
+2. Add to next.config.js
+   module.exports = {transpilePackages: ['masonrylayout-tsx-react']}
+   https://nextjs.org/docs/architecture/nextjs-compiler#module-transpilation
 */
    
 

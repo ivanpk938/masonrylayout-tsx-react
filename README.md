@@ -9,16 +9,16 @@
 
 It allows to create grid layout based on columns with auto-placement and optimized usage of Y-space by reducing unnecessary gaps
 
+## NPM
+```npm i masonrylayout-tsx-react```
+
 ## flex-wrap vs Masonry Layout
 
 ![243564763-2be76b88-daa7-40cd-baa5-522b67384ae9](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/fe4dc183-45cf-4fd0-a60f-58f3be590ec0)
 
 ## Demo & Usage
 #### Demo http://prg938.vercel.app/masonry
-https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/be7e5adb-8264-4698-ae30-c5313a750cab
-
 #### Usage (full code for demo above):
-```npm i masonrylayout-tsx-react```
 ```js
 import {FunctionComponent, ReactEventHandler, useRef, useState} from "react"
 import MasonryLayout from "masonrylayout-tsx-react"

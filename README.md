@@ -20,7 +20,7 @@ It allows to create grid layout based on columns with auto-placement and optimiz
 
 ## flex-wrap vs Masonry Layout
 
-![243564763-2be76b88-daa7-40cd-baa5-522b67384ae9](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/fe4dc183-45cf-4fd0-a60f-58f3be590ec0)
+![243689597-fe4dc183-45cf-4fd0-a60f-58f3be590ec0](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/380fd1a3-67e5-46b8-8d09-88c9631b283f)
 
 ## Demo & Usage
 #### Demo: http://prg938.vercel.app/masonry

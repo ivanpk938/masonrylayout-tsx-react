@@ -3,7 +3,7 @@
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/prg938/masonrylayout-tsx-react)
 
-![images](https://github.com/prg938/masonrylayout-tsx-react/assets/7237762/2b435ea0-63e1-456b-affe-9c6ba3f169e9)
+![images](https://cdn.icon-icons.com/icons2/1875/PNG/512/layout4_120474.png)
 
 
 It allows to create grid layout based on columns with auto-placement and optimized usage of Y-space by reducing unnecessary gaps

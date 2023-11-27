@@ -1,3 +1,8 @@
+###### TODO:
+1) Load all images/videos before showing layout.
+2) Show spinner/loader during loading stage.
+3) Simplify usage: omit onLoad/onLoadedMetadata events
+
 ## About
 exports **MasonryLayout component**.
 Allows to create masonry layout type for elements

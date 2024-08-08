@@ -5,7 +5,7 @@
 
 ## About
 exports **MasonryLayout component**.
-Allows to create masonry layout type for elements
+Allows to layout images as masonry
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/prg938/masonrylayout-tsx-react)
 

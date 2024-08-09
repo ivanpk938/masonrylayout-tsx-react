@@ -1,8 +1,3 @@
-###### TODO:
-1) Load all images/videos before showing layout.
-2) Show spinner/loader during loading stage.
-3) Simplify usage: omit onLoad/onLoadedMetadata events
-
 ## About
 exports **MasonryLayout component**.
 Allows to layout images as masonry
@@ -10,6 +5,8 @@ Allows to layout images as masonry
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/inhibate/masonrylayout-tsx-react)
 
 ![ezgif-5-188e839a47](https://github.com/inhibate/masonrylayout/assets/7237762/061b05e7-60bc-4efb-993e-62a45f440f3c)
+
+## Demo: https://inhibate.vercel.app/masonry
 
 ## NPM
 ```npm i masonrylayout-tsx-react```
@@ -21,9 +18,7 @@ Allows to layout images as masonry
 | React | >=16.8.0 |
 | TypeScript | - |
 
-## Demo & Usage
-#### Demo: https://inhibate.vercel.app/masonry
-#### Usage in Next.js:
+## Usage
 ```js
 
 import {FunctionComponent, useRef, useState} from "react"
@@ -100,3 +95,8 @@ export default MasonryPage
 | `justifyContainer` | 'flex-start' \| 'center' \| 'flex-end' | 'flex-start' | Specifies how to place container (in which all elements are nested) |
 | `gap` | number | 10 | A gap for the elements |
 | `layoutThrottle` | number | 250 | Delay after which the **layout()** function is called to layout elements when browser's window is resized | 
+
+## TODO:
+1) Load all images/videos before showing layout.
+2) Show spinner/loader during loading stage.
+3) Simplify usage: omit onLoad/onLoadedMetadata events

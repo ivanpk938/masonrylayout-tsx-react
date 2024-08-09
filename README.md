@@ -7,9 +7,9 @@
 exports **MasonryLayout component**.
 Allows to layout images as masonry
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/prg938/masonrylayout-tsx-react)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/inhibate/masonrylayout-tsx-react)
 
-![ezgif-5-188e839a47](https://github.com/prg938/masonrylayout/assets/7237762/061b05e7-60bc-4efb-993e-62a45f440f3c)
+![ezgif-5-188e839a47](https://github.com/inhibate/masonrylayout/assets/7237762/061b05e7-60bc-4efb-993e-62a45f440f3c)
 
 ## NPM
 ```npm i masonrylayout-tsx-react```
@@ -22,7 +22,7 @@ Allows to layout images as masonry
 | TypeScript | - |
 
 ## Demo & Usage
-#### Demo: http://prg938.vercel.app/masonry
+#### Demo: https://inhibate.vercel.app/masonry
 #### Usage in Next.js:
 ```js
 
